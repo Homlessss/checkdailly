@@ -1,8 +1,10 @@
 const mongoose = require("mongoose");
 
 const SubjectSchema = mongoose.Schema({
-  subject: String,
-  specialized: String
+  Mamonhoc: String,
+  Tenmonhoc: String,
+  Tietlythuyet: Number,
+  Tietthuchanh: Number
 });
 
 const SubjectModel = mongoose.model("Subject", SubjectSchema);

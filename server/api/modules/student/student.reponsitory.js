@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
 
 const StudentSchema = mongoose.Schema({
-  name: String,
-  age: Number,
-  class: String,
-  numberphone: Number
+  Tensv: String,
+  MSV: String,
+  Lop: String,
+  Ngaysinh: Date,
+  Gioitinh: String
 });
 
 const StudentModel = mongoose.model("Student", StudentSchema);

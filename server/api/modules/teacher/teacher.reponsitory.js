@@ -1,15 +1,10 @@
-const mongoose = require("mongoose");
+ const mongoose = require("mongoose");
 
 const TeacherSchema = mongoose.Schema({
-  name: String,
-  age: Number,
-  subjects: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Subject"
-    }
-  ],
-  numberphone: Number
+  Magv: String,
+  Tengv: String,
+  Chuyenmon: String,
+  Khoa: String
 });
 
 const TeacherModel = mongoose.model("Teacher", TeacherSchema);
